@@ -1,5 +1,7 @@
 [project]
+name = "tweedledum"
 requires-python = ">=3.6"
+dynamic = ["version", "classifiers", "authors", "license", "readme"]
 
 [build-system]
 requires = [
